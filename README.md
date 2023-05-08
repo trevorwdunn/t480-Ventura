@@ -38,19 +38,14 @@ This repo includes multiple EFI configuations for different macOS Versions.
 
 | EFI               | Description                                                               | Type      |
 | ----------------- | ------------------------------------------------------------------------- | --------- |
-| `EFI`             | Supports macOS Big Sur, Monterey & Ventura (using Airportitlwm)           | `Stable`  |
-| `EFI - HeliPort`  | Supports every macOS Version (except Ventura), Require HeliPort app       | `Stable`  |
-| `EFI - Broadcom`  | Supports every macOS Version, only for Broadcom Wifi cards                | `Beta`    |
+| `EFI`             | Supports macOS Ventura					                | `Stable`  |
 
-> **Note** The Broadcom configuration is not stable. Use ```EFI``` instead for a better experience (you can also disable Airportitlwm).
 
-<a href="https://github.com/OpenIntelWireless/HeliPort/releases"><strong>
-Download HeliPort app »</strong></a>
 
 <details>
 <summary><strong>💻 My Hardware</strong></summary>
 <br>
-These are the Hardware component I use. But this OpenCore configuation <strong>should still work</strong> with your device, even if the components are not equal.
+These are the Hardware components I use. But this OpenCore configuation <strong>should still work</strong> with your device, even if the components are not equal.
 
 > **Note** Check the model of your WiFi & Bluetooth card. Intel cards should be compatible with itlwm (or AirportItlwm). If your card is from another manufacturer, please check if your card supports macOS.
 
@@ -77,9 +72,9 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 
 You must have the following items:
 - Lenovo ThinkPad T480 (Obviously 😁).
-- Access to a working Windows machine with Python installed.
-- A pendrive with more than 4 GB (Remember that during the preparation we will format the flash drive to create the installation media).
-- an Internet connection (recommended via Ethernet).
+- Access to a working Windows, Mac, or Linux  machine with Python installed.
+- A flash drive with more than 4 GB (probably best to have at least 16. The one I used had 64, but that was way more than I needed. This will depend on whether your com.apple.recovery.boot files are the basesystem or not.) 
+- an Internet connection (I used wifi, but the original guide suggested that ethernet should work. If it doesn't, try plugging in ethernet prior to booting.) 
 - 1-2 hours of your time.
 
 </details>
@@ -98,11 +93,6 @@ With macrecovery, the process is the following:
 - Open ```cmd.exe``` with Administrator privileges and change the directory to OpenCorePkg-master\Utilities\macrecovery.
 - Enter the following command to download macOS:
 ```
-# Big Sur (11)
-python macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
-
-# Monterey (12)
-python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
 # Ventura (13)
 python macrecovery.py -b Mac-7BA5B2D9E42DDD94 download
@@ -336,3 +326,4 @@ By Jonas Günner &lt;jonas@exploitox.de&gt;</h6>
 <p align="center">
 	<a href="https://github.com/valnoxy/t480-oc/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
+# t480-Ventura
