@@ -56,12 +56,12 @@ These are the Hardware component I use. But this OpenCore configuation <strong>s
 
 | Category  | Component                            |
 | --------- | ------------------------------------ |
-| CPU       | Intel Core i5-8350U                  |
+| CPU       | Intel Core i5-7300U                  |
 | GPU       | Intel UHD Graphics 620               |
-| SSD       | Intel SSDPEKKF256G8L M.2 NVMe SSD    |
-| Memory    | 8GB DDR4 2400Mhz                     |
+| SSD       | Samsung 850 EVO SSD	           |
+| Memory    | 16GB DDR4                            |
 | Camera    | 720p Camera                          |
-| WiFi & BT | Dell DW1830 (BCM43602)               |
+| WiFi & BT | Intel 8265 	                   |
 
 </details>  
 
