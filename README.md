@@ -25,6 +25,8 @@
 
 ## ⚠️ Disclaimer
 This guide is only for the Lenovo ThinkPad T480. I am NOT responsible for any harm you cause to your device. This guide is provided "as-is" and all steps taken are done at your own risk.
+This is sort of a clone of Valnoxy's project by the same name. There will be a link to his project here as I only intend to update this as I actually change my own configuration. 
+
 
 > The ACPI patches and the style of this README are from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh).
 
