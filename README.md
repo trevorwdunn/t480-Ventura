@@ -16,3 +16,5 @@ I've created this project based on Valnoxy's project, and modified some specific
 Disclaimer: 
 
 I had to install Monterey first using the EFI found at https://github.com/Comet1903/t480-monterey-opencore. From there, I moved my SMBIOS information to the "EFI" config found at https://github.com/valnoxy/t480-oc. I also installed CPUFriend to deal with thermals and power management. For some reason, this caused my system to speed up considerably whilst being cooler and having a much longer battery life. My current hypothesis is that the CPU was drawing too much power, overheating, then thermal throttling whilst continuing to overheat, necessitating more use of the fans, which caused the CPU to heat up more, and so on. By installing CPUFriend, I think I interruped this feedback loop at its origin, thereby eliminating all of these problems at once. 
+
+Edit: I will now be attempting to upgrade to MacOS Sonoma using the new config from Valnoxy. 
